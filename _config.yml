@@ -10,6 +10,12 @@ author: fanxuricky
 language:
 timezone:
 
+# Header
+menu:
+  About: /about
+  Contact: /contact
+  LinkedIn: https://www.linkedin.com/in/rickysinyeap
+
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
 url: https://github.com/fanxuricky/hello-world
