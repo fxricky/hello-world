@@ -154,12 +154,36 @@ h1, h2, h3 {
 }
 
 .hovereffect:hover img {
-  opacity: 0;
-  filter: alpha(opacity=0);
+  opacity: 0.1;
+  filter: alpha(opacity=0.1);
 }
 
 .copyright {
   font-size: 14px;
   text-align: center;
   margin-bottom: 0;
+}
+
+.list-inline {
+  padding-left: 0;
+  margin-left: -5px;
+  list-style: none;
+}
+.list-inline > li {
+  display: inline-block;
+  padding-right: 5px;
+  padding-left: 5px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.btn-blk > li{
+	text-shadow: 1px 1px 1px #ccc;
+	font-size: 0.7em;
+}
+
+.fa-circle {
+	color: black;
 }
