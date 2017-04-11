@@ -13,14 +13,10 @@ timezone:
 # Header
 menu:
   About: /about
-<<<<<<< HEAD
+
 
 github_username: fanxuricky
 linkedin_username: rickysinyeap
-=======
-  Contact: /contact
-  LinkedIn: https://www.linkedin.com/in/rickysinyeap
->>>>>>> 5e4d2a6202b8f6759db94d6177b2e553b2d6c397
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
