@@ -73,6 +73,12 @@ h1, h2, h3 , a:visited {
 	list-style-type: none;
 }
 
+.navbar a {
+	color: black;
+	text-decoration: none;
+	font-weight: 800;
+}
+
 .nav-item {
 	font-size: 0.8rem;
 	font-weight: 300;
@@ -201,6 +207,6 @@ h1, h2, h3 , a:visited {
 }
 
 .post-image-div {
-	width: 50%;
+	width: 100%;
 	min-height: 10px;
 }
