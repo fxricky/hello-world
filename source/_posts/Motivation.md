@@ -5,7 +5,7 @@ tags:
 cover_image: /images/tree.jpg
 ---
 
-# No matter how, we must have a motivation
+# No matter what happened, we must keep ourselves motivated
 
 > SOMETIMES LIFE HITS YOU ON THE HEAD WITH A BRICK. DON'T LOSE FAITH.
 >
