@@ -1,0 +1,9 @@
+
+  <div class="hovereffect">
+    <a href="<%- config.root %><%- item.path %>">
+      <amp-img layout="responsive" width="500" height="300" src="<%- config.root %><%- item.cover_image || theme.default_cover_image %>" alt="<%- item.title || theme.default_post_title || "Untitled" %>"></amp-img>
+      <div class="overlay">
+        <span class="overlay-text"><%- item.title || theme.default_post_title || "Untitled" %></span>
+      </div>
+    </a>
+  </div>
