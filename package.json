@@ -3,11 +3,8 @@
   "version": "0.0.0",
   "private": true,
   "hexo": {
-<<<<<<< HEAD
+
     "version": "3.3.1"
-=======
-    "version": "3.3.0"
->>>>>>> 5e4d2a6202b8f6759db94d6177b2e553b2d6c397
   },
   "dependencies": {
     "hexo": "^3.2.0",
@@ -21,8 +18,4 @@
     "hexo-renderer-stylus": "^0.3.1",
     "hexo-server": "^0.2.0"
   }
-<<<<<<< HEAD
 }
-=======
-}
->>>>>>> 5e4d2a6202b8f6759db94d6177b2e553b2d6c397
