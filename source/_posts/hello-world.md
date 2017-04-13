@@ -1,6 +1,6 @@
 ---
 title: Hello World
-cover_image: /images/unsplash.jpg
+cover_image: /images/cave.jpg
 ---
 ## Welcome to fanxuricky's blog
 

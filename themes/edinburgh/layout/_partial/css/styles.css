@@ -202,11 +202,22 @@ h1, h2, h3 , a:visited {
 	overflow: auto;
 }
 
-.header-title {
-
-}
-
 .post-image-div {
 	width: 100%;
 	min-height: 10px;
+}
+
+.header-top {
+	padding-left: 5%;
+	padding-right: 5%
+}
+
+@media (max-width: 700px) {
+	.hovereffect {
+		width: 90%;
+	}
+
+	.hovereffect .overlay-text {
+		font-size: 4vw;
+	}
 }
