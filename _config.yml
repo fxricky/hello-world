@@ -20,8 +20,8 @@ linkedin_username: rickysinyeap
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: https://github.com/fanxuricky/hello-world
-root: /hello-world/
+url: http://fanxuricky.gq
+root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 
