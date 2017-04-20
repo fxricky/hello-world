@@ -212,6 +212,27 @@ h1, h2, h3 , a:visited {
 	padding-right: 5%
 }
 
+amp-sidebar {
+      width: 250px;
+      padding-right: 10px;
+}
+
+.amp-sidebar-image {
+      line-height: 100px;
+      vertical-align:middle;
+}
+
+.amp-close-image {
+       top: 15px;
+       left: 225px;
+       cursor: pointer;
+}
+
+.sidebar-item li {
+      margin-bottom: 20px;
+      list-style: none;
+}
+
 @media (max-width: 700px) {
 	.hovereffect {
 		width: 90%;
