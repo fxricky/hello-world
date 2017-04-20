@@ -41,6 +41,8 @@ input:focus, textarea:focus {
 .portfolio-content {
 	line-height: 2;
 	color: #555;
+	padding-left: 5%;
+	padding-right: 5%;
 }
 
 .portfolio-content a {
@@ -240,5 +242,9 @@ amp-sidebar {
 
 	.hovereffect .overlay-text {
 		font-size: 4vw;
+	}
+
+	.portfolio-content {
+		font-size: 3vw;
 	}
 }
