@@ -1,0 +1,24 @@
+<div class="post-image-div">
+  <amp-img layout="responsive" width="500" height="300"  src="<%- config.url %><%- item.cover_image || theme.default_cover_image %>" alt="<%- item.title || theme.default_post_title || "Untitled" %>"></amp-img>
+</div>
+<div class="col-lg-4 col-12 pt-3 px-4 pr-lg-5">
+  <h1><%- item.title || theme.default_post_title || "Untitled" %></h1>
+</div>
+<div class="portfolio-content">
+  <%- item.content %>
+</div>
+<amp-analytics type="googleanalytics">
+<script type="application/json">
+{
+  "vars": {
+    "account": "<%= theme.google_analytics %>"
+  },
+  "triggers": {
+    "trackPageview": {
+      "on": "visible",
+      "request": "pageview"
+    }
+  }
+}
+</script>
+</amp-analytics>
