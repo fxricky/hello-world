@@ -1,12 +1,15 @@
-<nav class="navbar">
-  <h1><a class="header-title" href="<%- config.root %>"><%-config.title || ""%></a></h1>
-  <div class="text-center">
-    <ul class="navbar">
+<ul class="navbar">
+  <li>
+    <button on="tap:sidebar.toggle">
+      <amp-img src="<%- config.url %>/images/mobile-menu.jpg" layout="responsive" width="40" height="60" alt="sidebar-logo"></amp-img>
+    </button>
+  </li>
+  <li>
+    <h1><a class="header-title" href="<%- config.root %>"><%-config.title || ""%></a></h1>
+  </li>
       <% for (var i in config.menu){ %>
         <li class="nav-item">
           <a class="nav-link" href="<%- url_for(config.menu[i]) %>"><%= i %></a>
         </li>
       <% } %>
-    </ul>
-  </div>
-</nav>
+</ul>
