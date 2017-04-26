@@ -41,6 +41,8 @@ input:focus, textarea:focus {
 .portfolio-content {
 	line-height: 2;
 	color: #555;
+	margin-left: 5%;
+	margin-right: 5%
 }
 
 .portfolio-content a {
@@ -76,20 +78,19 @@ h1, h2, h3 , a:visited {
 
 .navbar li {
 	display: inline-block;
+	font-size: 2em;
 }
 
 .navbar a {
 	color: black;
 	text-decoration: none;
 	font-weight: 800;
+
 }
 
 .nav-item {
-	font-size: 0.8rem;
-	font-weight: 300;
-	letter-spacing: 1.5px;
 	float: right;
-	display: inline;
+	font-size: 1em;
 }
 
 /*.navbar-toggler {
@@ -205,7 +206,8 @@ h1, h2, h3 , a:visited {
 
 .body-container {
 	display: block;
-	width: 100%;
+	margin-left: 5%;
+	margin-right: 5%;
 	overflow: auto;
 }
 
@@ -225,25 +227,11 @@ amp-sidebar {
       padding-right: 10px;
 }
 
-.amp-sidebar-image {
-      line-height: 100px;
-      vertical-align:middle;
-}
-
-.amp-close-image {
-       top: 15px;
-       left: 225px;
-       cursor: pointer;
-}
-
-.sidebar-item li , li:visited{
+.sidebar-item a , li {
       margin-bottom: 20px;
-      list-style: none;
 			text-decoration: none;
-}
-
-.sidebar-logo {
-	background:
+			list-style: none;
+			color: black;
 }
 
 @media (max-width: 700px) {
@@ -257,5 +245,9 @@ amp-sidebar {
 
 	.portfolio-content {
 		font-size: 3vw;
+	}
+
+	.navbar li {
+		font-size: 3.5vw;
 	}
 }
